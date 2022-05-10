@@ -27,7 +27,7 @@ bNote   = 0
 bDur    = 0
 bTime   = 0
 dNote   = [48,53,53,53,49,53,53,53,57]
-dCount  = 0
+dCount  = 1
 dTime   = 0
 tempo   = 120
 volume  = 100
@@ -63,7 +63,7 @@ while time < 125: # length of the song Each loop = 1 measure
         time += 0.25
     tempo = r.randrange(35, 200) # choose then write new tempo for next measure
     MyMidi.addTempo(track, time, tempo)
-    dCount = 0
+    dCount = 1
     
 # Writes the midi file
 with open("test5.mid", "wb") as output_file:
