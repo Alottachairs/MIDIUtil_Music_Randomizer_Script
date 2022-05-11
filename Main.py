@@ -65,5 +65,5 @@ while time < 125: # length of the song Each loop = 1 measure
     dCount = 1
     
 # Writes the midi file
-with open("test5.mid", "wb") as output_file:
+with open("yourRapture.mid", "wb") as output_file:
     MyMidi.writeFile(output_file)
