@@ -5,7 +5,7 @@ Required software: Latest version of Python, any DAW.
 
 You will need to install the MidiUtil module, installation instructions can be found on their DOC here https://midiutil.readthedocs.io/en/1.2.1/
 
-Copy and paste the .py file into your IDE.
+Copy and paste the main.py file into your IDE.
 
 When the script is ran, a midi file will be generated. The drum track, may need to be modified to suite your DAWs midi notes that match.
 
