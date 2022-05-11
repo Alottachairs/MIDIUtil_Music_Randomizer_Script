@@ -18,7 +18,6 @@ arpArray = ([60,64,67,71],[61,65,68,72], #All 12 Major 7th chords
  [68,71,75,78],[57,60,64,67],
  [58,61,65,68],[59,62,66,69])
 
-
 track   = 0
 channel = 0
 time    = 0
@@ -61,7 +60,7 @@ while time < 125: # length of the song Each loop = 1 measure
         pitch = r.choice(key)
         MyMidi.addNote(0,0,pitch, time, 0.25, volume)
         time += 0.25
-    tempo = r.randrange(35, 200) # choose then write new tempo for next measure
+    tempo = r.randrange(28, 180) # choose then write new tempo for next measure
     MyMidi.addTempo(track, time, tempo)
     dCount = 1
     
